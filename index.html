@@ -42,7 +42,79 @@
           <div class="card m-3">
             <div class="card-header">Vanilla Dpup 10.x (Unstable)</div>
             <div class="card-body">
-              <p class="card-text">This version is in the early stages of its development and features a lightweight <a href="https://github.com/djpohly/dwl" target="_blank">dwl</a>-based desktop environment, or a traditional Puppy desktop with JWM, running under Xwayland.</p>
+              <p class="card-text">This version is in the early stages of its development and features a lightweight <a href="https://github.com/djpohly/dwl" target="_blank">dwl</a>-based desktop environment, or a traditional Puppy desktop with JWM, running on top of either X.Org or Xwayland.</p>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Flavor</th>
+                    <th scope="col">X.Org</th>
+                    <th scope="col">Xwayland</th>
+                    <th scope="col">dwl</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Tagline</th>
+                    <td class="table-secondary">Rinse and repeat</td>
+                    <td class="table-primary">The best of both worlds, mostly</td>
+                    <td>Vanilla Dpup for r/unixporn</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Appearance</th>
+                    <td class="table-primary">Like 9.2.x</td>
+                    <td class="table-primary">Like 9.2.x</td>
+                    <td>Vastly different</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Ease of Migration from 9.2.x</th>
+                    <td class="table-primary">Trivial</td>
+                    <td class="table-secondary">Easy</td>
+                    <td>Hard</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Rendering</th>
+                    <td class="table-warning">With tearing</td>
+                    <td class="table-primary">Smooth</td>
+                    <td class="table-primary">Smooth</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Suitable for Gaming</th>
+                    <td class="table-primary">Yes</td>
+                    <td class="table-secondary">Mostly yes</td>
+                    <td>No</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Resource Consumption</th>
+                    <td>Normal</td>
+                    <td>Normal</td>
+                    <td class="table-primary">Low</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Range of Supported GPUs</th>
+                    <td class="table-primary">Wide</td>
+                    <td>Limited</td>
+                    <td>Limited</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Multi-Monitor Support</th>
+                    <td>Normal</td>
+                    <td class="table-warning">With caveats</td>
+                    <td class="table-warning">With caveats</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">HiDPI Support</th>
+                    <td>Limited</td>
+                    <td class="table-warning">With caveats</td>
+                    <td class="table-primary">Good</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Flatpak Support</th>
+                    <td>Limited</td>
+                    <td class="table-primary">Better</td>
+                    <td class="table-primary">Better</td>
+                  </tr>
+                </tbody>
+              </table>
               <a class="btn btn-danger w-20" role="button" href="https://github.com/vanilla-dpup/unstable/releases?q=vanilladpup-x86-10.0" target="_blank">Download latest development build (32-bit)</a>
               <a class="btn btn-danger w-20" role="button" href="https://github.com/vanilla-dpup/unstable/releases?q=vanilladpup-x86_64-10.0" target="_blank">Download latest development build (64-bit)</a>
             </div>
