@@ -42,7 +42,7 @@
           <div class="card m-3">
             <div class="card-header">Vanilla Dpup 10.x (Unstable)</div>
             <div class="card-body">
-              <p class="card-text">This version is in the early stages of its development and features a lightweight <a href="https://github.com/djpohly/dwl" target="_blank">dwl</a>-based desktop environment, or a traditional Puppy desktop with JWM, running on top of either X.Org or Xwayland.</p>
+              <p class="card-text">This version is in development and features a traditional Puppy desktop with JWM, running on top of either X.Org or Xwayland, or a lightweight <a href="https://github.com/djpohly/dwl" target="_blank">dwl</a>-based desktop environment.</p>
               <table class="table">
                 <thead>
                   <tr>
@@ -54,40 +54,64 @@
                 </thead>
                 <tbody>
                   <tr>
+                    <th scope="row">Window Manager</th>
+                    <td><a href="https://joewing.net/projects/jwm/">JWM</a> (floating)</td>
+                    <td><a href="https://joewing.net/projects/jwm/">JWM</a> (floating)</td>
+                    <td><a href="https://github.com/djpohly/dwl">dwl</a> + <a href="https://github.com/djpohly/dwl/wiki/Snail">snail layout</a> (tiling/floating)</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Panel</th>
+                    <td><a href="https://joewing.net/projects/jwm/">JWM</a> tray</td>
+                    <td><a href="https://joewing.net/projects/jwm/">JWM</a> tray</td>
+                    <td><a href="https://codeberg.org/dnkl/yambar">yambar</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">File Manager</th>
+                    <td><a href="https://rox.sourceforge.net/desktop/ROX-Filer">ROX-Filer</a></td>
+                    <td><a href="https://rox.sourceforge.net/desktop/ROX-Filer">ROX-Filer</a></td>
+                    <td><a href="https://ignorantguru.github.io/spacefm/">SpaceFM</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Desktop Icons</th>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                    <td>No</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Appearance</th>
+                    <td class="table-primary">Traditional</td>
+                    <td class="table-primary">Traditional</td>
+                    <td class="table-danger">Vastly different</td>
+                  </tr>
+                  <tr>
                     <th scope="row">Tagline</th>
                     <td class="table-secondary">Rinse and repeat</td>
                     <td class="table-primary">The best of both worlds, mostly</td>
                     <td>Vanilla Dpup for r/unixporn</td>
                   </tr>
                   <tr>
-                    <th scope="row">Appearance</th>
-                    <td class="table-primary">Like 9.2.x</td>
-                    <td class="table-primary">Like 9.2.x</td>
-                    <td>Vastly different</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Window Management</th>
-                    <td><a href="https://joewing.net/projects/jwm/">JWM</a> (floating)</td>
-                    <td><a href="https://joewing.net/projects/jwm/">JWM</a> (floating)</td>
-                    <td><a href="https://github.com/djpohly/dwl">dwl</a> + <a href="https://github.com/djpohly/dwl/wiki/Snail">snail layout</a> (tiling/floating)</td>
-                  </tr>
-                  <tr>
                     <th scope="row">Ease of Migration from 9.2.x</th>
                     <td class="table-primary">Trivial</td>
                     <td class="table-secondary">Easy</td>
-                    <td>Hard</td>
+                    <td class="table-danger">Hard</td>
                   </tr>
                   <tr>
-                    <th scope="row">Rendering</th>
-                    <td class="table-warning">With tearing</td>
-                    <td class="table-primary">Smooth</td>
-                    <td class="table-primary">Smooth</td>
+                    <th scope="row">VSync</th>
+                    <td class="table-warning">Requires compositor</td>
+                    <td class="table-primary">Built-in</td>
+                    <td class="table-primary">Built-in</td>
                   </tr>
                   <tr>
                     <th scope="row">Suitable for Gaming</th>
                     <td class="table-primary">Yes</td>
                     <td class="table-secondary">Mostly yes</td>
-                    <td>No</td>
+                    <td class="table-danger">No</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">User Friendly</th>
+                    <td class="table-primary">Yes</td>
+                    <td class="table-primary">Yes</td>
+                    <td class="table-danger">No</td>
                   </tr>
                   <tr>
                     <th scope="row">Resource Consumption</th>
