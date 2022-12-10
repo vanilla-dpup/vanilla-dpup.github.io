@@ -42,7 +42,7 @@
           <div class="card m-3">
             <div class="card-header">Vanilla Dpup 10.x (Unstable)</div>
             <div class="card-body">
-              <p class="card-text">This version is in development and features a traditional Puppy desktop with JWM, running on top of either X.Org or Xwayland, or a lightweight <a href="https://github.com/djpohly/dwl" target="_blank">dwl</a>-based desktop environment.</p>
+              <p class="card-text">This version is in development and features a traditional Puppy desktop with JWM, running on top of either X.Org or Xwayland.</p>
               <table class="table">
                 <thead>
                   <tr>
@@ -50,71 +50,25 @@
                     <th scope="col">Retro</th>
                     <th scope="col">X.Org</th>
                     <th scope="col">Xwayland</th>
-                    <th scope="col">dwl</th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <th scope="row">Window Manager</th>
-                    <td>X.Org + <a href="https://joewing.net/projects/jwm/">JWM</a> (floating)</td>
-                    <td>X.Org + <a href="https://joewing.net/projects/jwm/">JWM</a> (floating)</td>
-                    <td>dwl + Xwayland + <a href="https://joewing.net/projects/jwm/">JWM</a> (floating)</td>
-                    <td><a href="https://github.com/djpohly/dwl">dwl</a> + <a href="https://github.com/djpohly/dwl/wiki/Snail">snail layout</a> (tiling/floating)</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Panel</th>
-                    <td><a href="https://joewing.net/projects/jwm/">JWM</a> tray</td>
-                    <td><a href="https://joewing.net/projects/jwm/">JWM</a> tray</td>
-                    <td><a href="https://joewing.net/projects/jwm/">JWM</a> tray</td>
-                    <td><a href="https://codeberg.org/dnkl/yambar">yambar</a></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">File Manager</th>
-                    <td><a href="https://rox.sourceforge.net/desktop/ROX-Filer">ROX-Filer</a></td>
-                    <td><a href="https://rox.sourceforge.net/desktop/ROX-Filer">ROX-Filer</a></td>
-                    <td><a href="https://rox.sourceforge.net/desktop/ROX-Filer">ROX-Filer</a></td>
-                    <td><a href="https://ignorantguru.github.io/spacefm/">SpaceFM</a></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Terminal Emulator</th>
-                    <td><a href="https://github.com/lxde/lxterminal">LXTerminal</a></td>
-                    <td><a href="https://github.com/lxde/lxterminal">LXTerminal</a></td>
-                    <td><a href="https://github.com/lxde/lxterminal">LXTerminal</a></td>
-                    <td><a href="https://codeberg.org/dnkl/foot">foot</a></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Desktop Icons</th>
-                    <td>Yes</td>
-                    <td>Yes</td>
-                    <td>Yes</td>
-                    <td>No</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">Appearance</th>
-                    <td>Traditional</td>
-                    <td>Traditional</td>
-                    <td>Traditional</td>
-                    <td class="table-danger">Vastly different</td>
-                  </tr>
                   <tr>
                     <th scope="row">Tagline</th>
                     <td>For 9.2.x fans</td>
                     <td class="table-secondary">The safe bet</td>
                     <td class="table-primary">The best of both worlds, mostly</td>
-                    <td>Vanilla Dpup for <a href="https://www.reddit.com/r/unixporn/" target="_blank">r/unixporn</a></td>
                   </tr>
                   <tr>
                     <th scope="row">Ease of Migration from 9.2.x</th>
                     <td>Trivial</td>
                     <td>Trivial</td>
                     <td>Easy</td>
-                    <td class="table-danger">Hard</td>
                   </tr>
                   <tr>
                     <th scope="row">VSync</th>
                     <td class="table-warning">Requires compositor</td>
                     <td class="table-warning">Requires compositor</td>
-                    <td class="table-primary">Built-in</td>
                     <td class="table-primary">Built-in</td>
                   </tr>
                   <tr>
@@ -122,27 +76,17 @@
                     <td>Yes</td>
                     <td>Yes</td>
                     <td>Mostly yes</td>
-                    <td class="table-danger">No</td>
-                  </tr>
-                  <tr>
-                    <th scope="row">User Friendly</th>
-                    <td>Yes</td>
-                    <td>Yes</td>
-                    <td>Yes</td>
-                    <td class="table-danger">No</td>
                   </tr>
                   <tr>
                     <th scope="row">RAM Consumption</th>
                     <td>Lower</td>
                     <td>Normal</td>
                     <td>Normal</td>
-                    <td class="table-primary">Low</td>
                   </tr>
                   <tr>
                     <th scope="row">Range of Supported GPUs</th>
                     <td>Wide</td>
                     <td>Wide</td>
-                    <td class="table-warning">Limited</td>
                     <td class="table-warning">Limited</td>
                   </tr>
                   <tr>
@@ -150,19 +94,16 @@
                     <td>Normal</td>
                     <td>Normal</td>
                     <td class="table-warning">With caveats</td>
-                    <td class="table-warning">With caveats</td>
                   </tr>
                   <tr>
                     <th scope="row">HiDPI Support</th>
                     <td>Limited</td>
                     <td>Limited</td>
                     <td class="table-warning">With caveats</td>
-                    <td class="table-primary">Good</td>
                   </tr>
                   <tr>
                     <th scope="row">Default Applications</th>
                     <td class="table-warning">Few</td>
-                    <td>Built-in</td>
                     <td>Built-in</td>
                     <td>Built-in</td>
                   </tr>
@@ -171,12 +112,10 @@
                     <td class="table-warning">Not pre-installed</td>
                     <td>Built-in</td>
                     <td>Built-in</td>
-                    <td>Built-in</td>
                   </tr>
                   <tr>
                     <th scope="row">Multi-Language Support</th>
                     <td class="table-warning">Add-on SFS</td>
-                    <td>Built-in</td>
                     <td>Built-in</td>
                     <td>Built-in</td>
                   </tr>
@@ -185,13 +124,11 @@
                     <td class="table-warning">Add-on SFS</td>
                     <td>Built-in</td>
                     <td>Built-in</td>
-                    <td>Built-in</td>
                   </tr>
                   <tr>
                     <th scope="row">Flatpak Support</th>
                     <td class="table-warning">Limited + not pre-installed</td>
                     <td>Limited</td>
-                    <td class="table-primary">Better</td>
                     <td class="table-primary">Better</td>
                   </tr>
                 </tbody>
