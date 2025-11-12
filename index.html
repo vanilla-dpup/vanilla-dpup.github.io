@@ -37,6 +37,42 @@
               <p class="card-text">Is boots faster, shuts down faster, <span class="fw-bold">feels</span> faster, improves <a href="http://debian.org/" target="_blank">Debian</a> compatibility, runs the desktop as an unprivileged user to improve security and reduce annoyances like applications that refuse to run, introduces support for lightweight save folder encryption, improves multi-monitor support, adds a screen recording tool, simplifies installation and allows more flexible management of saved sessions with better documentation.</p>
               <p class="card-text">Unlike prior releases, Vanilla Dpup 11.0.x is only offered as a flash drive image for x86_64.</p>
               <p class="card-text"><a href="https://forum.puppylinux.com/viewtopic.php?t=14554" target="_blank">TrixiePup64</a> 'borrows' few features from Vanilla Dpup 11.0.x, but it's not directly based on it. If you like <a href="https://forum.puppylinux.com/viewtopic.php?t=14554" target="_blank">TrixiePup64</a> but prefer something lighter and more efficient with much better <a href="http://debian.org/" target="_blank">Debian</a> compatibility, Vanilla Dpup could be what you're looking for.</p>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Flavor</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Kernel</th>
+                    <th scope="col">Suitable For</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">full</th>
+                    <td>Many preinstalled applications and extras like common fonts</td>
+                    <td>6.12.x</td>
+                    <td>All users</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">mini</th>
+                    <td>Some preinstalled applications and extras like common fonts</td>
+                    <td>6.12.x</td>
+                    <td>All users</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">barebones</th>
+                    <td>Very few preinstalled applications, no extras</td>
+                    <td>6.12.x</td>
+                    <td>Advanced users</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">barebones-oldkernel</th>
+                    <td>Very few preinstalled applications, no extras</td>
+                    <td class="table-danger">6.1.x</td>
+                    <td>Advanced users with ancient hardware</td>
+                  </tr>
+                </tbody>
+              </table>
               <div class="text-center">
                 <a class="btn btn-primary w-20" role="button" href="https://github.com/vanilla-dpup/releases/releases?q=vanilladpup-x86_64-11.0" target="_blank">Download latest release (64-bit)</a>
               </div>
@@ -105,6 +141,48 @@
             <div class="card-header text-center">Vanilla Dpup 13.0.x (Unstable)</div>
             <div class="card-body">
               <p class="card-text">This is an unstable "rolling release" that tracks <a href="http://debian.org/" target="_blank">Debian</a> Unstable and contains changes that will go into future releases.</p>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Flavor</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Kernel</th>
+                    <th scope="col">Suitable For</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">full</th>
+                    <td>Many preinstalled applications and extras like common fonts</td>
+                    <td>Recent</td>
+                    <td>All users</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">mini</th>
+                    <td>Some preinstalled applications and extras like common fonts</td>
+                    <td>Recent</td>
+                    <td>All users</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">barebones</th>
+                    <td>Very few preinstalled applications, no extras</td>
+                    <td>Recent</td>
+                    <td>Advanced users</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">barebones-oldkernel</th>
+                    <td>Very few preinstalled applications, no extras</td>
+                    <td class="table-warning">6.12.x</td>
+                    <td>Advanced users with old hardware</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">barebones-oldoldkernel</th>
+                    <td>Very few preinstalled applications, no extras</td>
+                    <td class="table-danger">6.1.x</td>
+                    <td>Advanced users with ancient hardware</td>
+                  </tr>
+                </tbody>
+              </table>
               <div class="text-center">
                 <a class="btn btn-danger w-20 text-center" role="button" href="https://github.com/vanilla-dpup/unstable/releases" target="_blank">Download latest release (64-bit)</a>
               </div>
